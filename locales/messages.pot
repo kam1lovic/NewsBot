@@ -1,0 +1,237 @@
+# Translations template for PROJECT.
+# Copyright (C) 2024 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2024-10-23 19:47+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: bot/utils.py:96
+msgid "❗Ushbu kategoriya allaqachon mavjud."
+msgstr ""
+
+#: bot/utils.py:107
+msgid "✅ Ushbu kategoriya muvaffaqqiyatli saqlandi ✅!"
+msgstr ""
+
+#: bot/utils.py:114
+msgid "Kategoriya qo'shishga urinishda xatolik yuz berdi."
+msgstr ""
+
+#: bot/utils.py:120
+msgid "Kategoriya qo'shishda xatolik yuz berdi."
+msgstr ""
+
+#: bot/buttons/inline.py:26
+msgid "💾 Saqlash"
+msgstr ""
+
+#: bot/buttons/keyboard.py:6 bot/handlers/category_selection.py:19
+msgid "Saytlar 🌐"
+msgstr ""
+
+#: bot/buttons/keyboard.py:7 bot/handlers/category_selection.py:24
+msgid "Telegram kanallar 📣"
+msgstr ""
+
+#: bot/buttons/keyboard.py:8 bot/handlers/category_selection.py:31
+msgid "Profil 👤"
+msgstr ""
+
+#: bot/buttons/keyboard.py:34 bot/handlers/profile.py:18
+msgid "Kategoriya qo'shish 🏷"
+msgstr ""
+
+#: bot/buttons/keyboard.py:36 bot/handlers/profile.py:27
+msgid "Telegram kanal qo'shish 📣"
+msgstr ""
+
+#: bot/buttons/keyboard.py:37 bot/handlers/profile.py:33
+msgid "Orqaga  ⤵️"
+msgstr ""
+
+#: bot/handlers/add_category.py:25
+msgid "Kategoriya uchun emoji yuboring:"
+msgstr ""
+
+#: bot/handlers/add_category.py:32
+msgid "Iltimos, emoji yuboring."
+msgstr ""
+
+#: bot/handlers/add_category.py:39
+msgid "Iltimos, haqiqiy emoji yuboring."
+msgstr ""
+
+#: bot/handlers/add_category.py:43
+msgid "Bu emoji kiritilishi mumkin emas. Iltimos, boshqa emoji kiriting."
+msgstr ""
+
+#: bot/handlers/add_category.py:56 bot/handlers/add_channel.py:77
+#: bot/handlers/add_site.py:61
+msgid "Siz profil bo'limiga qaytdingiz. Iltimos, boshqa amalni tanlang."
+msgstr ""
+
+#: bot/handlers/add_channel.py:20
+msgid ""
+"Bu kanal nomi nomaqbul so'zlarni o'z ichiga oladi. Iltimos, boshqa nom "
+"kiriting:"
+msgstr ""
+
+#: bot/handlers/add_channel.py:25
+msgid "Kanal nomi qabul qilindi ✅!"
+msgstr ""
+
+#: bot/handlers/add_channel.py:26
+msgid "Endi, kanal usernameni yuboring ‼️"
+msgstr ""
+
+#: bot/handlers/add_channel.py:37
+msgid ""
+"Iltimos, username ni t.me/ yoki @ formatida emas, faqat username ni "
+"kiriting, Misol uchun ⤵️\n"
+"\n"
+"<i>t.me/kunuzofficial ❌ @kunuzofficial ❌ --> kunuzofficial ✅</i>"
+msgstr ""
+
+#: bot/handlers/add_channel.py:59
+msgid "Ushbu kanal allaqachon sizga bog'langan 😊"
+msgstr ""
+
+#: bot/handlers/add_channel.py:63 bot/handlers/add_channel.py:72
+msgid "Ushbu kanal foydalanuvchiga bog'landi 📣"
+msgstr ""
+
+#: bot/handlers/add_channel.py:68
+msgid "Ushbu kanal yangi kanal sifatida saqlandi 😊✅"
+msgstr ""
+
+#: bot/handlers/add_site.py:28
+msgid ""
+"Iltimos, URL ni http:// yoki https:// bilan boshlanadigan formatda "
+"yuboring."
+msgstr ""
+
+#: bot/handlers/add_site.py:43
+msgid "Ushbu sayt allaqachon sizga bog'langan 😊"
+msgstr ""
+
+#: bot/handlers/add_site.py:47 bot/handlers/add_site.py:56
+msgid "Ushbu sayt foydalanuvchiga bog'landi 🌐"
+msgstr ""
+
+#: bot/handlers/add_site.py:52
+msgid "Ushbu sayt yangi sayt sifatida saqlandi 😊✅"
+msgstr ""
+
+#: bot/handlers/category_selection.py:22
+msgid ""
+"🌐 Siz veb saytlarni tanladingiz!\n"
+"Sayt linklarini kiriting. Har birini alohida kiriting.\n"
+"\n"
+"🔗 <i>Misol uchun:</i> \n"
+"https://example.uz/"
+msgstr ""
+
+#: bot/handlers/category_selection.py:29
+msgid ""
+"🔔 Siz Telegram kanallarini tanladingiz!\n"
+"\n"
+"Kategoriya tanlang. Bir nechta kategoriya tanlab, ularni saqlashingiz "
+"mumkin!"
+msgstr ""
+
+#: bot/handlers/category_selection.py:34
+msgid "Profil bo'limi tanlandi!"
+msgstr ""
+
+#: bot/handlers/category_selection.py:36
+msgid "❗️Iltimos, quyidagi tugmalardan birini tanlang."
+msgstr ""
+
+#: bot/handlers/category_selection.py:64
+msgid "Iltimos, kamida bitta toifani tanlang."
+msgstr ""
+
+#: bot/handlers/category_selection.py:80
+msgid "Kategoriyalar muvaffaqiyatli saqlandi ✅"
+msgstr ""
+
+#: bot/handlers/category_selection.py:82
+msgid "Kategoriyalar saqlandi va endi sizga muntazam yangiliklar yuboriladi 😊"
+msgstr ""
+
+#: bot/handlers/category_selection.py:99
+msgid "✅ Barcha saytlar saqlandi va sizga muntazam yangiliklar yuboriladi!"
+msgstr ""
+
+#: bot/handlers/category_selection.py:101
+msgid "❗️Hech qanday sayt saqlanmadi."
+msgstr ""
+
+#: bot/handlers/category_selection.py:104
+msgid "Siz bosh sahifaga qaytdingiz. Boshqa amal bajarishni hohlaysizmi?"
+msgstr ""
+
+#: bot/handlers/category_selection.py:118
+msgid "✅ Sayt(lar) muvaffaqiyatli saqlandi va hisobingizga qo'shildi."
+msgstr ""
+
+#: bot/handlers/category_selection.py:122
+msgid "❗️Bu sayt(lar) allaqachon saqlangan"
+msgstr ""
+
+#: bot/handlers/category_selection.py:127
+msgid ""
+"❗️Sayt linki formati noto'g'ri \n"
+"Iltimos, qayta yuboring."
+msgstr ""
+
+#: bot/handlers/category_selection.py:129
+msgid "⏳ Yana saytlarni yuboring yoki tugatish uchun /done ni bosing."
+msgstr ""
+
+#: bot/handlers/profile.py:19
+msgid "Iltimos, kategoriya nomini yuboring: "
+msgstr ""
+
+#: bot/handlers/profile.py:22
+msgid "Sayt qo'shish 🌐"
+msgstr ""
+
+#: bot/handlers/profile.py:23
+msgid ""
+"🌐 Iltimos, sayt linklarini quyidagi formatda yuboring:\n"
+"\n"
+"https://example.com/"
+msgstr ""
+
+#: bot/handlers/profile.py:29
+msgid "📣 Iltimos, kanal nomini yuboring:"
+msgstr ""
+
+#: bot/handlers/profile.py:35
+msgid "Siz orqaga qaytdingiz ⤵️"
+msgstr ""
+
+#: bot/handlers/profile.py:39
+msgid "Iltimos, tugmalardan birini tanlang‼️"
+msgstr ""
+
+#: bot/handlers/start.py:45
+msgid ""
+"Til muvaffaqiyatli o'rnatildi!\n"
+"\n"
+"Iltimos tugmalardan birini tanlang⤵️"
+msgstr ""
+
