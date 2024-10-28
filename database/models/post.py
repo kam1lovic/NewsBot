@@ -20,6 +20,7 @@ class SummarizedPost(CreatedModel):
     category: Mapped['Category'] = relationship('Category', back_populates='posts')
     post_link: Mapped[str] = mapped_column(String)
     sent: Mapped[bool] = mapped_column(Boolean, default=False)
+    sent_channel: Mapped[bool] = mapped_column(Boolean, default=False)
 
     def __repr__(self) -> str:
         return f"<SummarizedPost(id={self.id}, content={self.content_uz})>"
