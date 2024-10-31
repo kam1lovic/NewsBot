@@ -19,27 +19,40 @@ async def get_channel_posts(channels):
 
             try:
                 posts = []
-                async for post in app.get_chat_history(channel, limit=10):
+                async for post in app.get_chat_history(channel, limit=5):
                     if post.id <= last_id:
                         break
                     posts.append(post)
 
                 if posts:
                     posts = posts[::-1]
+                    media_seen = set()
+
                     for post in posts:
+                        if post.pinned_message or post.service:
+                            continue
+
                         post_link = f"https://t.me/{channel}/{post.id}"
 
                         content = (
                                 post.text or
                                 post.caption or
                                 getattr(post, 'formatted_text', None) or
-                                "Havola orqali ko'ring 🖇"
+                                None
                         )
+
+                        if not content:
+                            continue
 
                         media = None
                         media_type = None
 
-                        # Faqat birinchi rasm yoki videoni tanlash
+                        if post.media_group_id:
+                            if post.media_group_id in media_seen:
+                                continue
+
+                            media_seen.add(post.media_group_id)
+
                         if post.photo:
                             media = post.photo.file_id
                             media_type = 'photo'
@@ -47,11 +60,10 @@ async def get_channel_posts(channels):
                             media = post.video.file_id
                             media_type = 'video'
 
-                        # Media mavjud bo'lmasa ham postni qo'shamiz
                         data.append({
                             "post_link": post_link,
                             "content": content,
-                            "media": media,  # Media bo'lmasligi ham mumkin
+                            "media": media,
                             "media_type": media_type
                         })
 
