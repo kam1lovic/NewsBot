@@ -18,10 +18,11 @@ def main_prompts(categories, news):
         {{
             "category": "Category name",
             "post_link": "Post link",
-            "summary": {{
-                "en": "English summary",
-                "uz": "Uzbek summary",
-                "ru": "Russian summary"
+            "title": {{
+                "en": "English summary title",
+                "uz": "Uzbek summary title",
+                "ru": "Russian summary title"
+"
             }}
         }}
 

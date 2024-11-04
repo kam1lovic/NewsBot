@@ -12,7 +12,7 @@ async def save_summarized_posts(news: list, categories: list):
 
     try:
         generated_dict = json.loads(generated_data)
-        print(generated_dict)
+        print(generated_dict, '\n---------------------------------------------------------------------')
     except json.JSONDecodeError:
         print("The result is not in JSON format.")
         return
@@ -23,7 +23,7 @@ async def save_summarized_posts(news: list, categories: list):
             continue
 
         category_name = result.get('category')
-        summary = result.get('summary')
+        summary = result.get('title')
         post_link = result.get('post_link')
 
         if not category_name or not summary or not post_link:
