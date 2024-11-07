@@ -1,5 +1,4 @@
 from aiogram import Router, F
-from aiogram import types
 from aiogram.fsm.context import FSMContext
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from aiogram.utils.i18n import gettext as _
@@ -11,7 +10,6 @@ from bot.states import CategorySelection
 from database.base import db
 from database.models import User, Organization
 
-# Replace `PreviousState` with the desired state you want to transition back to
 
 organ_router = Router()
 
@@ -37,11 +35,11 @@ async def process_organization_type(callback_query: CallbackQuery):
     organizations = organizations_result.all()
 
     buttons = [
-        InlineKeyboardButton(text=name, callback_data=f"name_{org_id}")
+        [InlineKeyboardButton(text=name, callback_data=f"name_{org_id}")]
         for org_id, name in organizations
     ]
 
-    keyboard_markup = InlineKeyboardMarkup(inline_keyboard=[buttons[i:i + 2] for i in range(0, len(buttons), 2)])
+    keyboard_markup = InlineKeyboardMarkup(inline_keyboard=buttons)
 
     back_button = InlineKeyboardButton(text=_("Orqaga"), callback_data="back_to_types")
     keyboard_markup.inline_keyboard.append([back_button])
