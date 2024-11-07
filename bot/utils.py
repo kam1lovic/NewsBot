@@ -1,8 +1,9 @@
 import re
+import json
 
 from aiogram.utils.i18n import gettext as _
 
-from database.models import Site, user_sites, Channel
+from database.models import Site, user_sites, Channel, Organization
 
 from sqlalchemy import insert, select
 from sqlalchemy.exc import IntegrityError
@@ -10,6 +11,9 @@ import logging
 
 from database.base import db
 from database.models import Category, user_categories
+import json
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy.future import select
 
 
 async def save_categories_to_db():
@@ -339,3 +343,34 @@ async def process_urls(user_id, urls):
             site_ids.append(site_id)
 
     return site_ids, already_saved_urls, invalid_urls
+
+
+async def save_organizations_from_json(file_path):
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+
+        for entry in data:
+            result = await db.execute(select(Organization).filter_by(phone=entry['phone']))
+            existing_org = result.scalars().first()
+
+            if existing_org is None:
+                new_org = Organization(
+                    name_uz=entry['organization']['uz'],
+                    name_en=entry['organization']['en'],
+                    name_ru=entry['organization']['ru'],
+                    original_name=entry['name']['original'],
+                    latin_name=entry['name']['latin'],
+                    phone=entry['phone'],
+                    type_uz=entry['type']['uz'],
+                    type_en=entry['type']['en'],
+                    type_ru=entry['type']['ru']
+                )
+                db.add(new_org)
+
+        await db.commit()
+    except Exception as e:
+        await db.rollback()
+        print(f"Error saving organizations: {e}")
+    finally:
+        await db.close()

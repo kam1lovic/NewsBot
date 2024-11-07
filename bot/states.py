@@ -11,6 +11,10 @@ class Profile(StatesGroup):
     profile = State()
 
 
+class Organizations(StatesGroup):
+    organ = State()
+
+
 class AddCategoryState(StatesGroup):
     waiting_for_category_name = State()
     waiting_for_category_emoji = State()

@@ -6,14 +6,16 @@ async def select_web_or_channel(lang_code):
     web_text = _("Saytlar 🌐", locale=lang_code)
     channel_text = _("Telegram kanallar 📣", locale=lang_code)
     profile_text = _("Profil 👤", locale=lang_code)
+    organization_text = _("Davlat organlari bilan bo'glanish ☎️", locale=lang_code)
 
     web = KeyboardButton(text=web_text)
     channel = KeyboardButton(text=channel_text)
     profile = KeyboardButton(text=profile_text)
+    contact_government_organizations = KeyboardButton(text=organization_text)
 
     design = [
-        [channel],
-        [profile]
+        [channel, profile],
+        [contact_government_organizations]
     ]
     return ReplyKeyboardMarkup(keyboard=design, resize_keyboard=True, one_time_keyboard=True)
 

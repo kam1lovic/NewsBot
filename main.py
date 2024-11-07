@@ -10,7 +10,8 @@ from aiogram.utils.i18n import I18n, FSMI18nMiddleware
 
 from bot.handlers import add_category_router, add_channel_router, add_site_router, category_router, profile_router, \
     start_router
-from bot.utils import save_categories_to_db, save_telegram_channels_to_db
+from bot.handlers.organization import organ_router
+from bot.utils import save_categories_to_db, save_telegram_channels_to_db, save_organizations_from_json
 from config import conf
 from database.base import db
 
@@ -33,12 +34,14 @@ def setup_routers():
     dp.include_router(add_category_router)
     dp.include_router(add_channel_router)
     dp.include_router(add_site_router)
+    dp.include_router(organ_router)
 
 
 async def on_startup(bot: Bot):
     await db.create_all()
     await save_categories_to_db()
     await save_telegram_channels_to_db()
+    await save_organizations_from_json('data.json')
 
 
 async def on_shutdown(bot: Bot):

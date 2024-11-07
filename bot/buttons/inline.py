@@ -3,7 +3,7 @@ from aiogram.utils.i18n import gettext as _
 from sqlalchemy import select
 
 from database.base import db
-from database.models import Category
+from database.models import Category, Organization
 
 
 async def category_buttons(user_id, selected_categories=None):
@@ -24,6 +24,29 @@ async def category_buttons(user_id, selected_categories=None):
     rows = [buttons[i:i + 3] for i in range(0, len(buttons), 3)]
 
     rows.append([InlineKeyboardButton(text=_("💾 Saqlash"), callback_data="save")])
+
+    keyboard_markup = InlineKeyboardMarkup(inline_keyboard=rows)
+    return keyboard_markup
+
+
+async def organization_type(user_language):
+    if user_language == 'en':
+        organizations_query = select(Organization.type_en).distinct()
+    elif user_language == 'ru':
+        organizations_query = select(Organization.type_ru).distinct()
+    else:
+        organizations_query = select(Organization.type_uz).distinct()
+
+    organizations_result = await db.execute(organizations_query)
+    organizations = organizations_result.scalars().all()
+
+    buttons = [InlineKeyboardButton(text=organization, callback_data=f"organization_{organization}") for organization in
+               organizations]
+
+    rows = [buttons[i:i + 2] for i in range(0, len(buttons), 2)]
+
+    back_button = InlineKeyboardButton(text=_("Orqaga"), callback_data="back")
+    rows.append([back_button])
 
     keyboard_markup = InlineKeyboardMarkup(inline_keyboard=rows)
     return keyboard_markup

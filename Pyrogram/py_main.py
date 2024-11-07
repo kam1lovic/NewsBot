@@ -1,7 +1,8 @@
 import asyncio
+import time
 from pyrogram.errors import (
     ChannelInvalid, ChannelPrivate, UsernameInvalid,
-    UsernameNotOccupied, PeerIdInvalid
+    UsernameNotOccupied, PeerIdInvalid, FloodWait
 )
 from client import app, send_posts_to_channel
 from storage import load_last_post_ids, save_last_post_ids
@@ -11,15 +12,13 @@ from database.models import Channel
 async def get_channel_posts(channels):
     data = []
     last_post_ids = await load_last_post_ids()
-
     async with app:
         for channel in channels:
             print(f"Getting posts from {channel}...")
             last_id = int(last_post_ids.get(channel, 0))
-
             try:
                 posts = []
-                async for post in app.get_chat_history(channel, limit=5):
+                async for post in app.get_chat_history(channel, limit=4):
                     if post.id <= last_id:
                         break
                     posts.append(post)
@@ -33,12 +32,9 @@ async def get_channel_posts(channels):
                             continue
 
                         post_link = f"https://t.me/{channel}/{post.id}"
-
                         content = (
-                                post.text or
-                                post.caption or
-                                getattr(post, 'formatted_text', None) or
-                                None
+                                post.text or post.caption or
+                                getattr(post, 'formatted_text', None) or None
                         )
 
                         if not content:
@@ -50,7 +46,6 @@ async def get_channel_posts(channels):
                         if post.media_group_id:
                             if post.media_group_id in media_seen:
                                 continue
-
                             media_seen.add(post.media_group_id)
 
                         if post.photo:
@@ -72,6 +67,11 @@ async def get_channel_posts(channels):
             except (ChannelInvalid, ChannelPrivate, UsernameInvalid, UsernameNotOccupied, PeerIdInvalid) as e:
                 print(f"Error with channel '{channel}': {e}")
                 continue
+            except FloodWait as e:
+                print(f"Rate limit reached. Waiting for {e.value} seconds...")
+                await asyncio.sleep(e.value)
+
+            await asyncio.sleep(1)
 
     await save_last_post_ids(last_post_ids)
     return data

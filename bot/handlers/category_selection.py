@@ -4,9 +4,9 @@ from aiogram.fsm.context import FSMContext
 from aiogram.types import Message, CallbackQuery, ReplyKeyboardRemove
 from aiogram.utils.i18n import gettext as _
 
-from bot.buttons.inline import category_buttons
+from bot.buttons.inline import category_buttons, organization_type
 from bot.buttons.keyboard import add_site_or_category, select_web_or_channel
-from bot.states import CategorySelection, Profile
+from bot.states import CategorySelection, Profile, Organizations
 from bot.utils import process_urls
 from database.base import db
 from database.models import User
@@ -32,6 +32,12 @@ async def get_selected_data(message: Message, state: FSMContext):
         await state.set_state(Profile.profile)
         button = await add_site_or_category()
         await message.answer(_("Profil bo'limi tanlandi!"), reply_markup=button)
+    elif message.text == _("Davlat organlari bilan bo'glanish ☎️"):
+        await state.set_state(Organizations.organ)
+        user = await User.get(message.from_user.id)
+        user_language = user.language
+        button = await organization_type(user_language)
+        await message.answer(_("Davlat organlari bilan bo'glanish tanlandi!"), reply_markup=button)
     else:
         await message.answer(_("❗️Iltimos, quyidagi tugmalardan birini tanlang."))
 

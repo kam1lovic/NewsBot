@@ -4,3 +4,4 @@ from .category import Category
 from .channel import Channel
 from .post import Post, SummarizedPost
 from .site import Site
+from .organizations import Organization
