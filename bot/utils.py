@@ -3,9 +3,8 @@ import logging
 import re
 
 from aiogram.utils.i18n import gettext as _
-from sqlalchemy import insert
+from sqlalchemy import select, insert
 from sqlalchemy.exc import IntegrityError
-from sqlalchemy.future import select
 
 from database.base import db
 from database.models import Category, user_categories
@@ -14,64 +13,71 @@ from database.models import Site, user_sites, Channel, Organization
 
 async def save_categories_to_db():
     categories = [
-        {"name": "Sport", "emoji": "⚽️"},
-        {"name": "Technique", "emoji": "💻"},
-        {"name": "Business", "emoji": "💼"},
-        {"name": "Art", "emoji": "🎨"},
-        {"name": "Health", "emoji": "🩺"},
-        {"name": "Culture", "emoji": "🏛"},
-        {"name": "Finance", "emoji": "💵"},
-        {"name": "Science", "emoji": "🔬"},
-        {"name": "Travel", "emoji": "✈️"},
-        {"name": "Auto", "emoji": "🚗"},
-        {"name": "Food", "emoji": "🍽"},
-        {"name": "Fashion", "emoji": "👗"},
-        {"name": "Games", "emoji": "🎮"},
-        {"name": "Education", "emoji": "📚"},
-        {"name": "Music", "emoji": "🎶"},
-        {"name": "Nature", "emoji": "🌿"},
-        {"name": "Movies", "emoji": "🎬"},
-        {"name": "Sports_techniques", "emoji": "🤾‍"},
-        {"name": "Family", "emoji": "👨‍👩‍👧‍👦"},
-        {"name": "Art_history", "emoji": "🖼"},
-        {"name": "Genetics", "emoji": "🧬"},
-        {"name": "Energy", "emoji": "⚡️"},
-        {"name": "Programming", "emoji": "💻"},
-        {"name": "Scientific_techniques", "emoji": "🔧"},
-        {"name": "Photography", "emoji": "📸"},
-        {"name": "Animation", "emoji": "🎥"},
-        {"name": "Architecture", "emoji": "🏗"},
-        {"name": "Environment", "emoji": "🌎"},
-        {"name": "Astronomy", "emoji": "🌌"},
-        {"name": "Literature", "emoji": "📖"},
-        {"name": "Fitness", "emoji": "💪"},
-        {"name": "Psychology", "emoji": "🧠"},
-        {"name": "Philosophy", "emoji": "📜"},
-        {"name": "History", "emoji": "🏺"},
-        {"name": "Pets", "emoji": "🐾"},
-        {"name": "Spirituality", "emoji": "🕉️"},
-        {"name": "Politics", "emoji": "🏛️"},
-        {"name": "Economics", "emoji": "📊"},
-        {"name": "Agriculture", "emoji": "🌾"},
-        {"name": "Cosmetology", "emoji": "💄"},
-        {"name": "Martial_Arts", "emoji": "🥋"},
-        {"name": "Adventure", "emoji": "🏕"},
-        {"name": "Social_Media", "emoji": "📱"},
-        {"name": "Cybersecurity", "emoji": "🔐"},
-        {"name": "Esports", "emoji": "🎮"},
-        {"name": "Real_Estate", "emoji": "🏘"},
-        {"name": "Crafts", "emoji": "🧵"},
-        {"name": "Gardening", "emoji": "🌱"},
-        {"name": "Volunteering", "emoji": "🤝"},
-        {"name": "Language_Learning", "emoji": "🗣️"}
+        {"name": "Sport", "name_uz": "Sport", "name_ru": "Спорт", "emoji": "⚽️"},
+        {"name": "Technique", "name_uz": "Texnika", "name_ru": "Техника", "emoji": "💻"},
+        {"name": "Business", "name_uz": "Biznes", "name_ru": "Бизнес", "emoji": "💼"},
+        {"name": "Art", "name_uz": "San'at", "name_ru": "Искусство", "emoji": "🎨"},
+        {"name": "Health", "name_uz": "Salomatlik", "name_ru": "Здоровье", "emoji": "🩺"},
+        {"name": "Culture", "name_uz": "Madaniyat", "name_ru": "Культура", "emoji": "🏛"},
+        {"name": "Finance", "name_uz": "Moliya", "name_ru": "Финансы", "emoji": "💵"},
+        {"name": "Science", "name_uz": "Fan", "name_ru": "Наука", "emoji": "🔬"},
+        {"name": "Travel", "name_uz": "Sayohat", "name_ru": "Путешествие", "emoji": "✈️"},
+        {"name": "Auto", "name_uz": "Avto", "name_ru": "Авто", "emoji": "🚗"},
+        {"name": "Food", "name_uz": "Ovqat", "name_ru": "Еда", "emoji": "🍽"},
+        {"name": "Fashion", "name_uz": "Moda", "name_ru": "Мода", "emoji": "👗"},
+        {"name": "Games", "name_uz": "O'yinlar", "name_ru": "Игры", "emoji": "🎮"},
+        {"name": "Education", "name_uz": "Ta'lim", "name_ru": "Образование", "emoji": "📚"},
+        {"name": "Music", "name_uz": "Musiqa", "name_ru": "Музыка", "emoji": "🎶"},
+        {"name": "Nature", "name_uz": "Tabiat", "name_ru": "Природа", "emoji": "🌿"},
+        {"name": "Movies", "name_uz": "Kinolar", "name_ru": "Фильмы", "emoji": "🎬"},
+        {"name": "Sports_techniques", "name_uz": "Sport texnikasi", "name_ru": "Спортивные техники", "emoji": "🤾‍"},
+        {"name": "Family", "name_uz": "Oila", "name_ru": "Семья", "emoji": "👨‍👩‍👧‍👦"},
+        {"name": "Art_history", "name_uz": "San'at tarixi", "name_ru": "История искусства", "emoji": "🖼"},
+        {"name": "Genetics", "name_uz": "Genetika", "name_ru": "Генетика", "emoji": "🧬"},
+        {"name": "Energy", "name_uz": "Energiya", "name_ru": "Энергия", "emoji": "⚡️"},
+        {"name": "Programming", "name_uz": "Dasturlash", "name_ru": "Программирование", "emoji": "💻"},
+        {"name": "Scientific_techniques", "name_uz": "Ilmiy texnikalar", "name_ru": "Научные техники", "emoji": "🔧"},
+        {"name": "Photography", "name_uz": "Fotosurat", "name_ru": "Фотография", "emoji": "📸"},
+        {"name": "Animation", "name_uz": "Animatsiya", "name_ru": "Анимация", "emoji": "🎥"},
+        {"name": "Architecture", "name_uz": "Arxitektura", "name_ru": "Архитектура", "emoji": "🏗"},
+        {"name": "Environment", "name_uz": "Atrof muhit", "name_ru": "Окружающая среда", "emoji": "🌎"},
+        {"name": "Astronomy", "name_uz": "Astronomiya", "name_ru": "Астрономия", "emoji": "🌌"},
+        {"name": "Literature", "name_uz": "Adabiyot", "name_ru": "Литература", "emoji": "📖"},
+        {"name": "Fitness", "name_uz": "Fitness", "name_ru": "Фитнес", "emoji": "💪"},
+        {"name": "Psychology", "name_uz": "Psixologiya", "name_ru": "Психология", "emoji": "🧠"},
+        {"name": "Philosophy", "name_uz": "Falsafa", "name_ru": "Философия", "emoji": "📜"},
+        {"name": "History", "name_uz": "Tarix", "name_ru": "История", "emoji": "🏺"},
+        {"name": "Pets", "name_uz": "Uy hayvonlari", "name_ru": "Домашние животные", "emoji": "🐾"},
+        {"name": "Spirituality", "name_uz": "Ma'naviyat", "name_ru": "Духовность", "emoji": "🕉️"},
+        {"name": "Politics", "name_uz": "Siyosat", "name_ru": "Политика", "emoji": "🏛️"},
+        {"name": "Economics", "name_uz": "Iqtisodiyot", "name_ru": "Экономика", "emoji": "📊"},
+        {"name": "Agriculture", "name_uz": "Qishloq xo'jaligi", "name_ru": "Сельское хозяйство", "emoji": "🌾"},
+        {"name": "Cosmetology", "name_uz": "Kosmetologiya", "name_ru": "Косметология", "emoji": "💄"},
+        {"name": "Martial_Arts", "name_uz": "Jang san'ati", "name_ru": "Боевые искусства", "emoji": "🥋"},
+        {"name": "Adventure", "name_uz": "Sarguzasht", "name_ru": "Приключения", "emoji": "🏕"},
+        {"name": "Social_Media", "name_uz": "Ijtimoiy tarmoq", "name_ru": "Социальные сети", "emoji": "📱"},
+        {"name": "Cybersecurity", "name_uz": "Kiberxavfsizlik", "name_ru": "Кибербезопасность", "emoji": "🔐"},
+        {"name": "Esports", "name_uz": "Kiber sport", "name_ru": "Киберспорт", "emoji": "🎮"},
+        {"name": "Real_Estate", "name_uz": "Ko'chmas mulk", "name_ru": "Недвижимость", "emoji": "🏘"},
+        {"name": "Crafts", "name_uz": "Hunarmandchilik", "name_ru": "Ремесла", "emoji": "🧵"},
+        {"name": "Gardening", "name_uz": "Bog'dorchilik", "name_ru": "Садоводство", "emoji": "🌱"},
+        {"name": "Volunteering", "name_uz": "Ko'ngillilik", "name_ru": "Волонтёрство", "emoji": "🤝"},
+        {"name": "Language_Learning", "name_uz": "Til o'rganish", "name_ru": "Изучение языков", "emoji": "🗣️"}
     ]
 
     existing_categories_query = select(Category.name)
     existing_categories_result = await db.execute(existing_categories_query)
-
     existing_categories = {row for row in existing_categories_result.scalars().all()}
 
-    new_categories = [category for category in categories if category['name'] not in existing_categories]
+    new_categories = [
+        {
+            "name": category["name"],
+            "name_uz": category["name_uz"],
+            "name_ru": category["name_ru"],
+            "emoji": category["emoji"]
+        }
+        for category in categories if category["name"] not in existing_categories
+    ]
 
     if new_categories:
         try:
@@ -308,7 +314,7 @@ async def add_category(name: str, emoji: str, user_id: int):
             return msg
 
     try:
-        stmt = insert(Category).values(name=name, emoji=emoji).returning(Category.id)
+        stmt = insert(Category).values(name=name, emoji=emoji, dynamic_category=True).returning(Category.id)
         result = await db.execute(stmt)
         category_id = result.scalar()
 
@@ -394,3 +400,5 @@ async def save_organizations_from_json(file_path):
         print(f"Error saving organizations: {e}")
     finally:
         await db.close()
+
+

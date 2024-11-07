@@ -6,7 +6,7 @@ from database.base import db
 from database.models import Category, Organization
 
 
-async def category_buttons(user_id, selected_categories=None):
+async def category_buttons(user_language, selected_categories=None):
     if selected_categories is None:
         selected_categories = []
 
@@ -15,14 +15,21 @@ async def category_buttons(user_id, selected_categories=None):
             text = f"{text} ✅"
         return InlineKeyboardButton(text=text, callback_data=f"category_{category_id}")
 
-    query = select(Category).where((Category.user_id == None) | (Category.user_id == user_id))
+    if user_language == "uz":
+        name_field = Category.name_uz
+    elif user_language == "ru":
+        name_field = Category.name_ru
+    else:
+        name_field = Category.name
+
+    query = select(Category).where(Category.dynamic_category == False)
     categories_result = await db.execute(query)
     categories = categories_result.scalars().all()
 
-    buttons = [create_button(f"{category.emoji} {category.name}", category.id) for category in categories]
+    # Kategoriyalar nomi foydalanuvchi tiliga mos ravishda tanlanadi
+    buttons = [create_button(f"{category.emoji} {getattr(category, name_field.key)}", category.id) for category in categories]
 
     rows = [buttons[i:i + 3] for i in range(0, len(buttons), 3)]
-
     rows.append([InlineKeyboardButton(text=_("💾 Saqlash"), callback_data="save")])
 
     keyboard_markup = InlineKeyboardMarkup(inline_keyboard=rows)

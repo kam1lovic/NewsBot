@@ -52,6 +52,14 @@ async def send_text_with_random_links(posts, user):
         else:
             return post.content_uz
 
+    def get_category_name_by_language(category, language):
+        if language == 'en':
+            return category.name
+        elif language == 'ru':
+            return category.name_ru
+        else:
+            return category.name_uz
+
     posts_by_category = {}
     for post in posts:
         category = post.category
@@ -60,7 +68,10 @@ async def send_text_with_random_links(posts, user):
         posts_by_category[category].append(post)
 
     for category, category_posts in posts_by_category.items():
-        category_header = f"<b>{category.emoji} {category.name.upper()}\n\n</b>"
+        # Foydalanuvchi tiliga mos ravishda kategoriya nomini olish
+        category_name = get_category_name_by_language(category, user.language)
+        category_header = f"<b>{category.emoji} {category_name.upper()}\n\n</b>"
+
         if len(current_message) + len(category_header) <= MAX_MESSAGE_LENGTH:
             current_message += category_header
         else:
@@ -77,13 +88,11 @@ async def send_text_with_random_links(posts, user):
             if not words:
                 continue
 
-            # Tasodifiy so'zni tanlash va unga post linkni biriktirish
             random_index = random.randrange(len(words))
             random_word = words[random_index]
             linked_word = f'<a href="{post.post_link}">{random_word}</a>'
             words[random_index] = linked_word
 
-            # So'zlarni qayta birlashtirib, postni xabar tarkibiga qo'shish
             modified_text = ' '.join(words)
             line = f"- {modified_text}.\n"
 
@@ -98,7 +107,6 @@ async def send_text_with_random_links(posts, user):
     if current_message:
         messages.append(current_message)
 
-    # Yig'ilgan barcha xabarlarni foydalanuvchiga yuborish
     for message in messages:
         await bot.send_message(
             user.id,

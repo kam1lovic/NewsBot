@@ -33,7 +33,6 @@ async def send_posts_to_channel(posts):
     messages = []
     current_message = ""
 
-    # Xabar sarlavhasini qo'shish
     current_message += "<b>8 soatlik umumlashtirilgan habarlar</b>\n\n"
 
     posts_by_category = {}
@@ -44,7 +43,7 @@ async def send_posts_to_channel(posts):
         posts_by_category[category].append(post)
 
     for category, category_posts in posts_by_category.items():
-        category_header = f"<b>{category.emoji} {category.name.upper()}\n</b>"
+        category_header = f"<b>{category.emoji} {category.name_uz.upper()}\n</b>"
         if len(current_message) + len(category_header) <= MAX_MESSAGE_LENGTH:
             current_message += category_header
         else:
@@ -56,7 +55,6 @@ async def send_posts_to_channel(posts):
             if not content:
                 continue
 
-            # Tasodifiy so'zga link qo'shish
             words = content.split()
             if words:
                 random_index = random.randint(0, len(words) - 1)
@@ -75,8 +73,7 @@ async def send_posts_to_channel(posts):
 
         current_message += "\n"
 
-    # Xabar oxiriga avtomatik yaratilganlikni qo'shish
-    current_message += "<i>OpenAI GPT-4 yordamida avtomatik ravishda yaratilgan. Ma'lumotlarning to'g'riligi tasdiqlanmagan.\n</i>"
+    current_message += "<i>Malumotlar OpenAI GPT-4 yordamida avtomatik ravishda yaratilgan. Ma'lumotlarning to'g'riligi tasdiqlanmagan.\n</i>"
 
     if current_message:
         messages.append(current_message)

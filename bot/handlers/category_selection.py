@@ -23,8 +23,9 @@ async def get_selected_data(message: Message, state: FSMContext):
             reply_markup=ReplyKeyboardRemove())
     elif message.text == _("Telegram kanallar 📣"):
         await state.set_state(CategorySelection.telegram_selected)
-        user_id = message.from_user.id
-        reply_buttons = await category_buttons(user_id)
+        user = await User.get(message.from_user.id)
+        user_language = user.language
+        reply_buttons = await category_buttons(user_language)
         await message.answer(
             _("🔔 Siz Telegram kanallarini tanladingiz!\n\nKategoriya tanlang. Bir nechta kategoriya tanlab, ularni saqlashingiz mumkin!"),
             reply_markup=reply_buttons)
@@ -55,8 +56,9 @@ async def toggle_category(callback_query: CallbackQuery, state: FSMContext):
         selected_categories.append(category_id)
 
     await state.update_data(selected_categories=selected_categories)
-    reply_markup = await category_buttons(user_id=callback_query.message.from_user.id,
-                                          selected_categories=selected_categories)
+    user = await User.get(callback_query.from_user.id)
+    user_language = user.language
+    reply_markup = await category_buttons(user_language, selected_categories=selected_categories)
     await callback_query.message.edit_reply_markup(reply_markup=reply_markup)
 
 
