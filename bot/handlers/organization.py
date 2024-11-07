@@ -99,6 +99,6 @@ async def handle_back_button(callback_query: CallbackQuery, state: FSMContext):
     await callback_query.answer()
     await state.set_state(CategorySelection.select_web_or_telegram)
     await callback_query.message.answer(
-        _("Siz bosh bo'limga qaytdingiz"),
+        _("Siz orqaga qaytdingiz ⤵️"),
         reply_markup=button
     )
