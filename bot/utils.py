@@ -1,19 +1,15 @@
-import re
 import json
+import logging
+import re
 
 from aiogram.utils.i18n import gettext as _
-
-from database.models import Site, user_sites, Channel, Organization
-
-from sqlalchemy import insert, select
+from sqlalchemy import insert
 from sqlalchemy.exc import IntegrityError
-import logging
+from sqlalchemy.future import select
 
 from database.base import db
 from database.models import Category, user_categories
-import json
-from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.future import select
+from database.models import Site, user_sites, Channel, Organization
 
 
 async def save_categories_to_db():
@@ -52,7 +48,6 @@ async def save_categories_to_db():
         {"name": "Psychology", "emoji": "🧠"},
         {"name": "Philosophy", "emoji": "📜"},
         {"name": "History", "emoji": "🏺"},
-        {"name": "News", "emoji": "📰"},
         {"name": "Pets", "emoji": "🐾"},
         {"name": "Spirituality", "emoji": "🕉️"},
         {"name": "Politics", "emoji": "🏛️"},
