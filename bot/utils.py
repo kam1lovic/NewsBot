@@ -43,7 +43,32 @@ async def save_categories_to_db():
         {"name": "Programming", "emoji": "💻"},
         {"name": "Scientific_techniques", "emoji": "🔧"},
         {"name": "Photography", "emoji": "📸"},
-        {"name": "Animation", "emoji": "🎥"}
+        {"name": "Animation", "emoji": "🎥"},
+        {"name": "Architecture", "emoji": "🏗"},
+        {"name": "Environment", "emoji": "🌎"},
+        {"name": "Astronomy", "emoji": "🌌"},
+        {"name": "Literature", "emoji": "📖"},
+        {"name": "Fitness", "emoji": "💪"},
+        {"name": "Psychology", "emoji": "🧠"},
+        {"name": "Philosophy", "emoji": "📜"},
+        {"name": "History", "emoji": "🏺"},
+        {"name": "News", "emoji": "📰"},
+        {"name": "Pets", "emoji": "🐾"},
+        {"name": "Spirituality", "emoji": "🕉️"},
+        {"name": "Politics", "emoji": "🏛️"},
+        {"name": "Economics", "emoji": "📊"},
+        {"name": "Agriculture", "emoji": "🌾"},
+        {"name": "Cosmetology", "emoji": "💄"},
+        {"name": "Martial_Arts", "emoji": "🥋"},
+        {"name": "Adventure", "emoji": "🏕"},
+        {"name": "Social_Media", "emoji": "📱"},
+        {"name": "Cybersecurity", "emoji": "🔐"},
+        {"name": "Esports", "emoji": "🎮"},
+        {"name": "Real_Estate", "emoji": "🏘"},
+        {"name": "Crafts", "emoji": "🧵"},
+        {"name": "Gardening", "emoji": "🌱"},
+        {"name": "Volunteering", "emoji": "🤝"},
+        {"name": "Language_Learning", "emoji": "🗣️"}
     ]
 
     existing_categories_query = select(Category.name)
