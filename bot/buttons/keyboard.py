@@ -17,7 +17,7 @@ async def select_web_or_channel(lang_code):
         [channel, profile],
         [contact_government_organizations]
     ]
-    return ReplyKeyboardMarkup(keyboard=design, resize_keyboard=True, one_time_keyboard=True)
+    return ReplyKeyboardMarkup(keyboard=design, resize_keyboard=True)
 
 
 def get_language_keyboard():

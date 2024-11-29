@@ -1,5 +1,4 @@
 import asyncio
-import time
 from pyrogram.errors import (
     ChannelInvalid, ChannelPrivate, UsernameInvalid,
     UsernameNotOccupied, PeerIdInvalid, FloodWait

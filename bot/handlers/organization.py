@@ -10,7 +10,6 @@ from bot.states import CategorySelection
 from database.base import db
 from database.models import User, Organization
 
-
 organ_router = Router()
 
 
@@ -100,3 +99,4 @@ async def handle_back_button(callback_query: CallbackQuery, state: FSMContext):
         _("Siz orqaga qaytdingiz ⤵️"),
         reply_markup=button
     )
+    await callback_query.message.delete_reply_markup()

@@ -26,11 +26,12 @@ async def category_buttons(user_language, selected_categories=None):
     categories_result = await db.execute(query)
     categories = categories_result.scalars().all()
 
-    # Kategoriyalar nomi foydalanuvchi tiliga mos ravishda tanlanadi
-    buttons = [create_button(f"{category.emoji} {getattr(category, name_field.key)}", category.id) for category in categories]
+    buttons = [create_button(f"{category.emoji} {getattr(category, name_field.key)}", category.id) for category in
+               categories]
 
     rows = [buttons[i:i + 3] for i in range(0, len(buttons), 3)]
     rows.append([InlineKeyboardButton(text=_("💾 Saqlash"), callback_data="save")])
+    rows.append([InlineKeyboardButton(text=_("Orqaga"), callback_data="back")])
 
     keyboard_markup = InlineKeyboardMarkup(inline_keyboard=rows)
     return keyboard_markup

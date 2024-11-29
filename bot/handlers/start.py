@@ -7,7 +7,7 @@ from aiogram.utils.i18n import gettext as _
 from bot.buttons.keyboard import get_language_keyboard, select_web_or_channel
 from bot.states import CategorySelection
 from database.models import User
-from database.base import db  # Bazaga ulanish sessiyasi
+from database.base import db
 
 start_router = Router()
 

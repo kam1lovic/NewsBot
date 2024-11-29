@@ -16,6 +16,8 @@ category_router = Router()
 
 @category_router.message(StateFilter(CategorySelection.select_web_or_telegram))
 async def get_selected_data(message: Message, state: FSMContext):
+    await message.answer("...", reply_markup=ReplyKeyboardRemove())
+
     if message.text == _("Saytlar 🌐"):
         await state.set_state(CategorySelection.web_selected)
         await message.answer(
