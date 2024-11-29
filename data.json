@@ -1,7 +1,7 @@
 [
   {
     "organization": {
-      "uz": "Ўзбекистон Республикаси Олий Мажлиси Сенати девони",
+      "uz": "O'zbekiston Respublikasi Oliy Majlisi Senati devoni",
       "en": "Senate of the Oliy Majlis of the Republic of Uzbekistan",
       "ru": "Секретариат Сената Олий Мажлиса Республики Узбекистан"
     },
@@ -18,7 +18,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон Республикаси Олий Мажлиси Қонунчилик палатаси девони",
+      "uz": "O'zbekiston Respublikasi Oliy Majlisi Qonunchilik palatasi devoni",
       "en": "Legislative Chamber of the Oliy Majlis of the Republic of Uzbekistan",
       "ru": "Секретариат Законодательной палаты Олий Мажлиса Республики Узбекистан"
     },
@@ -35,7 +35,7 @@
   },
   {
     "organization": {
-      "uz": "Судьялар Олий кенгаши",
+      "uz": "Sudyalar Oliy kengashi",
       "en": "Supreme Judicial Council",
       "ru": "Высший судейский совет"
     },
@@ -52,7 +52,7 @@
   },
   {
     "organization": {
-      "uz": "Олий суд",
+      "uz": "Oliy sud",
       "en": "Supreme Court",
       "ru": "Верховный суд"
     },
@@ -69,7 +69,7 @@
   },
   {
     "organization": {
-      "uz": "Бош прокуратура",
+      "uz": "Bosh prokuratura",
       "en": "General Prosecutor's Office",
       "ru": "Генеральная прокуратура"
     },
@@ -86,7 +86,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон Республикаси Президенти ҳузуридаги Тадбиркорлик субъектларининг ҳуқуқлари ва қонуний манфаатларини ҳимоя қилиш бўйича вакил",
+      "uz": "O'zbekiston Respublikasi Prezidenti huzuridagi Tadbirkorlik sub'ektlarining huquqlari va qonuniy manfaatlarini himoya qilish bo'yicha vakil",
       "en": "Business Ombudsman under the President of the Republic of Uzbekistan",
       "ru": "Уполномоченный по защите прав и законных интересов субъектов предпринимательства при Президенте Республики Узбекистан"
     },
@@ -103,7 +103,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон Республикаси Президенти ҳузуридаги Давлат хизматини ривожлантириш агентлиги",
+      "uz": "O'zbekiston Respublikasi Prezidenti huzuridagi Davlat hizmatini rivojlantrish agentligi",
       "en": "Agency for Public Service Development under the President of the Republic of Uzbekistan",
       "ru": "Агентство по развитию государственной службы при Президенте Республики Узбекистан"
     },
@@ -120,7 +120,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон Республикаси Президенти ҳузуридаги Статистика агентлиги",
+      "uz": "O'zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
       "en": "Agency of Statistics under the President of the Republic of Uzbekistan",
       "ru": "Агентство статистики при Президенте Республики Узбекистан"
     },
@@ -137,7 +137,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон Республикаси Президенти ҳузуридаги Ижтимоий ҳимоя миллий агентлиги",
+      "uz": "O'zbekiston Respublikasi Prezidenti huzuridagi Ijtimoiy ximoya milliy agentligi",
       "en": "National Agency of Social Protection under the President of the Republic of Uzbekistan",
       "ru": "Национальное агентство социальной защиты при Президенте Республики Узбекистан"
     },
@@ -154,7 +154,7 @@
   },
   {
     "organization": {
-      "uz": "Марказий сайлов комиссияси",
+      "uz": "Markaziy saylov komissiyasi",
       "en": "Central Election Commission",
       "ru": "Центральная избирательная комиссия"
     },
@@ -171,7 +171,7 @@
   },
   {
     "organization": {
-      "uz": "Марказий банк",
+      "uz": "Markaziy bank",
       "en": "Central Bank",
       "ru": "Центральный банк"
     },
@@ -188,7 +188,7 @@
   },
   {
     "organization": {
-      "uz": "Миллий гвардия",
+      "uz": "Milliy Gvardiya",
       "en": "National Guard",
       "ru": "Национальная гвардия"
     },
@@ -205,7 +205,7 @@
   },
   {
     "organization": {
-      "uz": "Бош прокуратураси ҳузуридаги Мажбурий ижро бюроси",
+      "uz": "Bosh prokuratura xuzuridagi Majburiy ijro byurosi",
       "en": "Bureau of Compulsory Enforcement under the General Prosecutor's Office",
       "ru": "Бюро принудительного исполнения при Генеральной прокуратуре"
     },
@@ -222,7 +222,7 @@
   },
   {
     "organization": {
-      "uz": "Бош прокуратура ҳузуридаги Иқтисодий жиноятларга қарши курашиш департаменти",
+      "uz": "Bosh prokuratura huzuridagi Iqtisodiy jinoyatlarga qarshi kurashish departamenti",
       "en": "Department for Combating Economic Crimes under the General Prosecutor's Office",
       "ru": "Департамент по борьбе с экономическими преступлениями при Генеральной прокуратуре"
     },
@@ -239,7 +239,7 @@
   },
   {
     "organization": {
-      "uz": "Ҳуқуқни муҳофаза қилиш академияси",
+      "uz": "Huquqni muhofaza qilish akademiyasi",
       "en": "Academy of Law Enforcement",
       "ru": "Академия правоохранительных органов"
     },
@@ -256,7 +256,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон Республикаси Олий Мажлиси Инсон ҳуқуқлари бўйича вакили (Омбудсман)",
+      "uz": "O‘zbekiston Respublikasi Oliy Majlisi Inson huquqlari bo‘yicha vakili (Ombudsman)",
       "en": "Ombudsman for Human Rights of the Oliy Majlis of the Republic of Uzbekistan",
       "ru": "Уполномоченный Олий Мажлиса по правам человека (Омбудсман)"
     },
@@ -273,7 +273,7 @@
   },
   {
     "organization": {
-      "uz": "Олий Мажлиснинг Бола ҳуқуқлари бўйича вакили (Болалар омбудсмани)",
+      "uz": "Oliy Majlisning Bola huquqlari bo'yicha vakili (Bolalar Ombudsmani)",
       "en": "Children's Rights Ombudsman of the Oliy Majlis",
       "ru": "Уполномоченный Олий Мажлиса по правам ребенка (Детский омбудсман)"
     },
@@ -290,7 +290,7 @@
   },
   {
     "organization": {
-      "uz": "Давлат бошқарув академияси",
+      "uz": "Davlat boshqaruv akademiyasi",
       "en": "Academy of Public Administration",
       "ru": "Академия государственного управления"
     },
@@ -307,7 +307,7 @@
   },
   {
     "organization": {
-      "uz": "Адлия вазирлиги",
+      "uz": "Adliya vazirligi",
       "en": "Ministry of Justice",
       "ru": "Министерство юстиции"
     },
@@ -324,7 +324,7 @@
   },
   {
     "organization": {
-      "uz": "Рақамли технологиялар вазирлиги",
+      "uz": "Raqamli texnalogiyalar vazirligi",
       "en": "Ministry of Digital Technologies",
       "ru": "Министерство цифровых технологий"
     },
@@ -341,7 +341,7 @@
   },
   {
     "organization": {
-      "uz": "Камбағалликни қисқартириш ва бандлик вазирлиги",
+      "uz": "Kambag'allikni qisqartirish va bandlik vazirligi",
       "en": "Ministry of Poverty Reduction and Employment",
       "ru": "Министерство сокращения бедности и занятости"
     },
@@ -358,7 +358,7 @@
   },
   {
     "organization": {
-      "uz": "Ички ишлар вазирлиги",
+      "uz": "Ichki ishlar vazirligi",
       "en": "Ministry of Internal Affairs",
       "ru": "Министерство внутренних дел"
     },
@@ -375,7 +375,7 @@
   },
   {
     "organization": {
-      "uz": "Олий таълим, фан ва инновациялар вазирлиги",
+      "uz": "Oliy ta'lim, fan va innovatsiyalar vazirligi",
       "en": "Ministry of Higher Education, Science, and Innovation",
       "ru": "Министерство высшего образования, науки и инноваций"
     },
@@ -392,24 +392,7 @@
   },
   {
     "organization": {
-      "uz": "Иқтисодиёт ва молия вазирлиги",
-      "en": "Ministry of Economy and Finance",
-      "ru": "Министерство экономики и финансов"
-    },
-    "name": {
-      "original": "Вакант (Рушана Умарова)",
-      "latin": "Vakant (Rushana Umarova)"
-    },
-    "phone": "(90) 951-48-44",
-    "type": {
-      "uz": "Vazirliklar",
-      "en": "Ministries",
-      "ru": "Министерства"
-    }
-  },
-  {
-    "organization": {
-      "uz": "Инвестициялар, саноат ва савдо вазирлиги",
+      "uz": "Investitsiyalar, sanoat va savdo vazirligi",
       "en": "Ministry of Investments, Industry, and Trade",
       "ru": "Министерство инвестиций, промышленности и торговли"
     },
@@ -426,7 +409,7 @@
   },
   {
     "organization": {
-      "uz": "Маданият вазирлиги",
+      "uz": "Madaniyat vazirligi",
       "en": "Ministry of Culture",
       "ru": "Министерство культуры"
     },
@@ -443,7 +426,7 @@
   },
   {
     "organization": {
-      "uz": "Мудофаа вазирлиги",
+      "uz": "Mudofa vazirligi",
       "en": "Ministry of Defense",
       "ru": "Министерство обороны"
     },
@@ -460,7 +443,7 @@
   },
   {
     "organization": {
-      "uz": "Спорт вазирлиги",
+      "uz": "Sport vazirligi",
       "en": "Ministry of Sports",
       "ru": "Министерство спорта"
     },
@@ -477,7 +460,7 @@
   },
   {
     "organization": {
-      "uz": "Соғлиқни сақлаш вазирлиги",
+      "uz": "Sog'liqni saqlash vazirligi",
       "en": "Ministry of Health",
       "ru": "Министерство здравоохранения"
     },
@@ -494,7 +477,7 @@
   },
   {
     "organization": {
-      "uz": "Сув хўжалиги вазирлиги",
+      "uz": "Suv xo'jaligi vazirligi",
       "en": "Ministry of Water Resources",
       "ru": "Министерство водного хозяйства"
     },
@@ -511,7 +494,7 @@
   },
   {
     "organization": {
-      "uz": "Ташқи ишлар вазирлиги",
+      "uz": "Tashqi ishlar vazirligi",
       "en": "Ministry of Foreign Affairs",
       "ru": "Министерство иностранных дел"
     },
@@ -528,7 +511,7 @@
   },
   {
     "organization": {
-      "uz": "Экология, атроф-муҳитни муҳофаза қилиш ва иқлим ўзгариши вазирлиги",
+      "uz": "Ekologiya, atrof-muhitni himoya qilish va iqlim o‘zgarishi vazirligi",
       "en": "Ministry of Ecology, Environmental Protection, and Climate Change",
       "ru": "Министерство экологии, охраны окружающей среды и изменения климата"
     },
@@ -545,7 +528,7 @@
   },
   {
     "organization": {
-      "uz": "Транспорт вазирлиги",
+      "uz": "Transport vazirligi",
       "en": "Ministry of Transport",
       "ru": "Министерство транспорта"
     },
@@ -562,7 +545,7 @@
   },
   {
     "organization": {
-      "uz": "Тоғ-кон саноати ва геология вазирлиги",
+      "uz": "Tog'-kon sanoati va Geologiya vazirligi",
       "en": "Ministry of Mining Industry and Geology",
       "ru": "Министерство горнодобывающей промышленности и геологии"
     },
@@ -579,7 +562,7 @@
   },
   {
     "organization": {
-      "uz": "Қурилиш ва уй-жой коммунал хўжалиги вазирлиги",
+      "uz": "Qurilish va uy-joy kommunal xo'jaligi vazirligi",
       "en": "Ministry of Construction and Housing and Communal Services",
       "ru": "Министерство строительства и жилищно-коммунального хозяйства"
     },
@@ -596,7 +579,7 @@
   },
   {
     "organization": {
-      "uz": "Фавқулодда вазиятлар вазирлиги",
+      "uz": "Favqulotda vaziyatlar vazirligi",
       "en": "Ministry of Emergency Situations",
       "ru": "Министерство по чрезвычайным ситуациям"
     },
@@ -613,7 +596,7 @@
   },
   {
     "organization": {
-      "uz": "Мактабгача ва мактаб таълими вазирлиги",
+      "uz": "Maktabgacha va maktab ta'limi vazirligi",
       "en": "Ministry of Preschool and School Education",
       "ru": "Министерство дошкольного и школьного образования"
     },
@@ -630,7 +613,7 @@
   },
   {
     "organization": {
-      "uz": "Энергетика вазирлиги",
+      "uz": "Energetika vazirligi",
       "en": "Ministry of Energy",
       "ru": "Министерство энергетики"
     },
@@ -647,13 +630,13 @@
   },
   {
     "organization": {
-      "uz": "Қишлоқ хўжалиги вазирлиги",
+      "uz": "Qishloq xo'jaligi vazirligi",
       "en": "Ministry of Agriculture",
       "ru": "Министерство сельского хозяйства"
     },
     "name": {
-      "original": "Назаров Дилшодбек Бохадирович",
-      "latin": "Nazarov Dilshodbek Bokhadrovich"
+      "original": "Назиров Дилшодбек Бохадирович",
+      "latin": "Nazirov Dilshodbek Bokhadrovich"
     },
     "phone": "(97) 777-08-98",
     "type": {
@@ -664,7 +647,7 @@
   },
   {
     "organization": {
-      "uz": "Миллатлараро муносабатлар ва хорижий мамлакатлар билан дўстлик алоқалари қўмитаси",
+      "uz": "Millatlararo munosabatlar va xorijiy mamlakatlar bilan do'stlik aloqalari qo'mitasi",
       "en": "Committee for Interethnic Relations and Friendship with Foreign Countries",
       "ru": "Комитет по межнациональным отношениям и дружественным связям с зарубежными странами"
     },
@@ -681,7 +664,7 @@
   },
   {
     "organization": {
-      "uz": "Дин ишлари бўйича қўмита",
+      "uz": "Din ishlari bo'yicha qo'mita",
       "en": "Committee on Religious Affairs",
       "ru": "Комитет по делам религий"
     },
@@ -698,7 +681,7 @@
   },
   {
     "organization": {
-      "uz": "Божхона қўмитаси",
+      "uz": "Bojxona qo'mitasi",
       "en": "Customs Committee",
       "ru": "Комитет по таможне"
     },
@@ -715,7 +698,7 @@
   },
   {
     "organization": {
-      "uz": "Солиқ қўмитаси",
+      "uz": "Soliq qo'mitasi",
       "en": "Tax Committee",
       "ru": "Комитет по налогам"
     },
@@ -732,7 +715,7 @@
   },
   {
     "organization": {
-      "uz": "Оила ва хотин-қизлар қўмитаси",
+      "uz": "Oila va xotin-qizlar qo'mitasi",
       "en": "Committee on Family and Women",
       "ru": "Комитет по делам семьи и женщин"
     },
@@ -749,7 +732,7 @@
   },
   {
     "organization": {
-      "uz": "Ветеринария ва чорвачиликни ривожлантириш қўмитаси",
+      "uz": "Veterinariya va chorvachilikni rivojlantirish qo‘mitasi",
       "en": "Committee for Veterinary and Livestock Development",
       "ru": "Комитет по ветеринарии и развитию животноводства"
     },
@@ -766,7 +749,7 @@
   },
   {
     "organization": {
-      "uz": "Рақобатни ривожлантириш ва истеъмолчилар ҳуқуқларини ҳимоя қилиш қўмитаси",
+      "uz": "Raqobatni rivojlantrish va istemolchilar xuquqlarini himoqya qilish qo'mitasi",
       "en": "Committee on Competition Development and Consumer Rights Protection",
       "ru": "Комитет по развитию конкуренции и защите прав потребителей"
     },
@@ -783,7 +766,7 @@
   },
   {
     "organization": {
-      "uz": "Автомобиль йўллари қўмитаси",
+      "uz": "Avtomobil yo'llari qo'mitasi",
       "en": "Committee on Highways",
       "ru": "Комитет по автомобильным дорогам"
     },
@@ -800,7 +783,7 @@
   },
   {
     "organization": {
-      "uz": "Миллий олимпия қўмитаси",
+      "uz": "Milliy olimpiya qo'mitasi",
       "en": "National Olympic Committee",
       "ru": "Национальный олимпийский комитет"
     },
@@ -817,7 +800,7 @@
   },
   {
     "organization": {
-      "uz": "Туризм қўмитаси",
+      "uz": "Turizm qo'mitasi",
       "en": "Tourism Committee",
       "ru": "Комитет по туризму"
     },
@@ -834,7 +817,7 @@
   },
   {
     "organization": {
-      "uz": "Санитария-эпидемиологик осойишталик ва жамоат саломатлиги қўмитаси",
+      "uz": "Sanitariya-epidemiologik osoyishtalik va jamoat salomatligi qo‘mitasi",
       "en": "Committee for Sanitary-Epidemiological Wellbeing and Public Health",
       "ru": "Комитет по санитарно-эпидемиологическому благополучию и общественному здоровью"
     },
@@ -851,7 +834,7 @@
   },
   {
     "organization": {
-      "uz": "Саноат, радиация ва ядро хавфсизлиги қўмитаси",
+      "uz": "Sanoat, radiatsiya va yadro xavfsizligi qo'mitasi",
       "en": "Committee on Industrial, Radiation, and Nuclear Safety",
       "ru": "Комитет по промышленной, радиационной и ядерной безопасности"
     },
@@ -868,7 +851,7 @@
   },
   {
     "organization": {
-      "uz": "Миллий антидопинг агентлиги",
+      "uz": "Milliy antidoping agentligi",
       "en": "National Anti-Doping Agency",
       "ru": "Национальное антидопинговое агентство"
     },
@@ -885,7 +868,7 @@
   },
   {
     "organization": {
-      "uz": "Кадастр агентлиги",
+      "uz": "Kadastr agentligi",
       "en": "Cadastre Agency",
       "ru": "Агентство по кадастру"
     },
@@ -902,7 +885,7 @@
   },
   {
     "organization": {
-      "uz": "Гидрометеорология хизмати агентлиги",
+      "uz": "Gidrometeorologiya xizmati agentligi",
       "en": "Agency for Hydrometeorological Services",
       "ru": "Агентство гидрометеорологической службы"
     },
@@ -919,7 +902,7 @@
   },
   {
     "organization": {
-      "uz": "Коррупцияга қарши курашиш агентлиги",
+      "uz": "Korrupsiyaga qarshi kurashish agentligi",
       "en": "Anti-Corruption Agency",
       "ru": "Агентство по борьбе с коррупцией"
     },
@@ -936,7 +919,7 @@
   },
   {
     "organization": {
-      "uz": "Истиқболли лойихалар миллий агентлиги",
+      "uz": "Istiqbolli loyihalar milliy agentligi",
       "en": "National Agency for Prospective Projects",
       "ru": "Национальное агентство перспективных проектов"
     },
@@ -953,7 +936,7 @@
   },
   {
     "organization": {
-      "uz": "Ташқи меҳнат миграцияси агентлиги",
+      "uz": "Tashqi mexnat migratsiyasi agentligi",
       "en": "Agency for External Labor Migration",
       "ru": "Агентство внешней трудовой миграции"
     },
@@ -970,7 +953,7 @@
   },
   {
     "organization": {
-      "uz": "Фармацевтика тармоғини ривожлантириш агентлиги",
+      "uz": "Farmatsevtika tarmog‘ini rivojlantirish agentligi",
       "en": "Agency for the Development of the Pharmaceutical Industry",
       "ru": "Агентство по развитию фармацевтической отрасли"
     },
@@ -987,7 +970,7 @@
   },
   {
     "organization": {
-      "uz": "Ихтисослаштирилган таълим муассасалари агентлиги",
+      "uz": "Ixtisoslashtirilgan ta'lim muassasalari agentligi",
       "en": "Agency for Specialized Educational Institutions",
       "ru": "Агентство специализированных учебных заведений"
     },
@@ -1004,7 +987,7 @@
   },
   {
     "organization": {
-      "uz": "Давлат активларини бошқариш агентлиги",
+      "uz": "Davlat aktivlarini boshqarish agentligi",
       "en": "State Asset Management Agency",
       "ru": "Агентство по управлению государственными активами"
     },
@@ -1021,7 +1004,7 @@
   },
   {
     "organization": {
-      "uz": "Техник жиҳатдан тартибга солиш агентлиги",
+      "uz": "Texnik jihatdan tartibga solish agentligi",
       "en": "Agency for Technical Regulation",
       "ru": "Агентство по техническому регулированию"
     },
@@ -1038,7 +1021,7 @@
   },
   {
     "organization": {
-      "uz": "“Ўзархив” агентлиги",
+      "uz": "“O'zarxiv” agentligi",
       "en": "Uzarchive Agency",
       "ru": "Агентство \"Ўзархив\""
     },
@@ -1055,7 +1038,7 @@
   },
   {
     "organization": {
-      "uz": "Ёшлар ишлари агентлиги",
+      "uz": "Yoshlar ishlari agentligi",
       "en": "Youth Affairs Agency",
       "ru": "Агентство по делам молодежи"
     },
@@ -1072,7 +1055,7 @@
   },
   {
     "organization": {
-      "uz": "Ўсимликлар карантини ва ҳимояси агентлиги",
+      "uz": "O'simliklar karantini va himoyasi agentligi",
       "en": "Agency for Plant Quarantine and Protection",
       "ru": "Агентство по карантину и защите растений"
     },
@@ -1089,7 +1072,7 @@
   },
   {
     "organization": {
-      "uz": "Маданий мерос агентлиги",
+      "uz": "Madaniy meros agentligi",
       "en": "Agency for Cultural Heritage",
       "ru": "Агентство по культурному наследию"
     },
@@ -1106,7 +1089,7 @@
   },
   {
     "organization": {
-      "uz": "Кинематография агентлиги",
+      "uz": "Kinematografiya agentligi",
       "en": "Cinematography Agency",
       "ru": "Агентство по кинематографии"
     },
@@ -1123,7 +1106,7 @@
   },
   {
     "organization": {
-      "uz": "Инновацион ривожланиш агентлиги",
+      "uz": "Innovatsion rivojlanish",
       "en": "Agency for Innovative Development",
       "ru": "Агентство инновационного развития"
     },
@@ -1140,7 +1123,7 @@
   },
   {
     "organization": {
-      "uz": "Маҳаллабай ишлаш ва тадбиркорликни ривожлантириш агентлиги",
+      "uz": "Mahallabay ishlar va tadbirkorlikni rivojlantirih agentligi",
       "en": "Agency for Mahalla Operations and Entrepreneurship Development",
       "ru": "Агентство по работе с махаллями и развитию предпринимательства"
     },
@@ -1157,7 +1140,7 @@
   },
   {
     "organization": {
-      "uz": "Энергетика бозорини ривожлантириш ва тартибга солиш агентлиги",
+      "uz": "Energetika bozorini rivojlantirish va tartibga solish agentligi",
       "en": "Agency for Development and Regulation of the Energy Market",
       "ru": "Агентство по развитию и регулированию энергетического рынка"
     },
@@ -1174,7 +1157,7 @@
   },
   {
     "organization": {
-      "uz": "Алкоголь ва тамаки бозорини тартибга солиш инспекцияси",
+      "uz": "Alkogol va tamaki bozorini tartibga solish inspeksiyasi",
       "en": "Inspectorate for Regulation of Alcohol and Tobacco Market",
       "ru": "Инспекция по регулированию рынка алкоголя и табака"
     },
@@ -1191,7 +1174,7 @@
   },
   {
     "organization": {
-      "uz": "Агросаноат мажмуи устидан назорат қилиш инспекцияси",
+      "uz": "Agrosanoat majmui ustidan nazorat qilish inspeksiyasi",
       "en": "Inspectorate for Control over the Agro-Industrial Complex",
       "ru": "Инспекция по контролю за агропромышленным комплексом"
     },
@@ -1208,7 +1191,7 @@
   },
   {
     "organization": {
-      "uz": "Электр энергияси, нефть маҳсулотлари ва газдан фойдаланишни назорат қилиш инспекцияси",
+      "uz": "Elektr energiyasi, neft maxsulotlari va gazdan foydalanish nazorat qilish inspeksiyasi",
       "en": "Inspectorate for Control over the Use of Electricity, Petroleum Products, and Gas",
       "ru": "Инспекция по контролю за использованием электроэнергии, нефтепродуктов и газа"
     },
@@ -1225,7 +1208,7 @@
   },
   {
     "organization": {
-      "uz": "Ахборотлаштириш ва телекоммуникациялар соҳасида назорат бўйича давлат инспекцияси",
+      "uz": "Axborotlantirish va telekommunikasiyalar sohasida nazorat bo'yicha davlat inspeksiyasi",
       "en": "State Inspectorate for Control in the Field of Information and Telecommunications",
       "ru": "Государственная инспекция по контролю в области информатизации и телекоммуникаций"
     },
@@ -1242,7 +1225,7 @@
   },
   {
     "organization": {
-      "uz": "Транспорт назорати инспекцияси",
+      "uz": "Transport nazorat Inspektsiyasi ",
       "en": "Transport Control Inspectorate",
       "ru": "Инспекция транспортного контроля"
     },
@@ -1259,7 +1242,7 @@
   },
   {
     "organization": {
-      "uz": "Инсон ҳуқуқлари бўйича Ўзбекистон Республикаси Миллий маркази",
+      "uz": "Inson huquqlari bo‘yicha O‘zbekiston Respublikasi Milliy markazi",
       "en": "National Center of the Republic of Uzbekistan for Human Rights",
       "ru": "Национальный центр Республики Узбекистан по правам человека"
     },
@@ -1276,7 +1259,7 @@
   },
   {
     "organization": {
-      "uz": "Имом Бухорий халқаро илмий-тадқиқот маркази",
+      "uz": "Imom Buxoriy xalqaro ilmiy-tadqiqot markazi",
       "en": "Imam Bukhari International Research Center",
       "ru": "Международный научно-исследовательский центр Имама Бухари"
     },
@@ -1293,7 +1276,7 @@
   },
   {
     "organization": {
-      "uz": "Фанлар академияси",
+      "uz": "Fanlar akademiyasi",
       "en": "Academy of Sciences",
       "ru": "Академия наук"
     },
@@ -1310,7 +1293,7 @@
   },
   {
     "organization": {
-      "uz": "Х. Сулаймонова номидаги Республика суд экспертизаси маркази",
+      "uz": "X. Sulaymonova nomidagi Respublika sud ekspertizasi markazi",
       "en": "Republican Forensic Examination Center Named after Kh. Sulaymonova",
       "ru": "Республиканский центр судебной экспертизы имени Х. Сулаймоновой"
     },
@@ -1327,7 +1310,7 @@
   },
   {
     "organization": {
-      "uz": "“Фармацевтика маҳсулотлари хавфсизлиги маркази” давлат муассасаси",
+      "uz": "Farmatsevtika mahsulotlari xavfsizligi markazi, davlat muassasasi",
       "en": "State Institution 'Center for the Safety of Pharmaceutical Products'",
       "ru": "Государственное учреждение «Центр безопасности фармацевтических продуктов»"
     },
@@ -1344,7 +1327,7 @@
   },
   {
     "organization": {
-      "uz": "Қишлоқ ҳўжалигида билим ва инновациялар Миллий маркази",
+      "uz": "Qishloq xo'jaligida bilim va innovatsiyalar Milliy markazi",
       "en": "National Center for Knowledge and Innovations in Agriculture",
       "ru": "Национальный центр знаний и инноваций в сельском хозяйстве"
     },
@@ -1361,7 +1344,7 @@
   },
   {
     "organization": {
-      "uz": "Давлат экология экспертизаси маркази",
+      "uz": "Davlat ekologiya ekspertizasi markazi",
       "en": "State Environmental Expertise Center",
       "ru": "Центр государственной экологической экспертизы"
     },
@@ -1378,24 +1361,7 @@
   },
   {
     "organization": {
-      "uz": "Олий аттестация комиссияси",
-      "en": "Higher Attestation Commission",
-      "ru": "Высшая аттестационная комиссия"
-    },
-    "name": {
-      "original": "Жовлиев Баходир Хасанович",
-      "latin": "Jovliev Bahodir Khasanovich"
-    },
-    "phone": "(97) 737-74-16",
-    "type": {
-      "uz": "Boshqa tashkilotlar",
-      "en": "Other organizations",
-      "ru": "Другие организации"
-    }
-  },
-  {
-    "organization": {
-      "uz": "Республика Маънавият ва маърифат маркази",
+      "uz": "Respublika Ma'naviyat va ma'rifat markazi",
       "en": "Republican Center of Spirituality and Enlightenment",
       "ru": "Республиканский центр духовности и просвещения"
     },
@@ -1412,7 +1378,7 @@
   },
   {
     "organization": {
-      "uz": "Санитар тозалаш ишларини ташкил этиш республика маркази",
+      "uz": "Sanitar tozalash ishlarini tashkil etish respublika markazi",
       "en": "Republican Center for Sanitary Cleaning Operations",
       "ru": "Республиканский центр организации санитарной очистки"
     },
@@ -1429,7 +1395,7 @@
   },
   {
     "organization": {
-      "uz": "Шаҳарсозлик ҳужжатларини экспертиза қилиш республика маркази",
+      "uz": "Shaharsozlik hujjatlarini ekspertiza qilish respublika markazi",
       "en": "Republican Center for Urban Planning Documentation Expertise",
       "ru": "Республиканский центр экспертизы градостроительной документации"
     },
@@ -1446,7 +1412,7 @@
   },
   {
     "organization": {
-      "uz": "Оила ва гендер илмий-тадқиқот институти",
+      "uz": "Oila va gender ilmiy-tadqiqot instituti",
       "en": "Institute of Family and Gender Research",
       "ru": "Научно-исследовательский институт семьи и гендера"
     },
@@ -1456,14 +1422,14 @@
     },
     "phone": "99 811 77 76",
     "type": {
-      "uz": "Boshqa tashkilotlar",
       "en": "Other organizations",
+      "uz": "Boshqa tashkilotlar",
       "ru": "Другие организации"
     }
   },
   {
     "organization": {
-      "uz": "Ўзбекистон Бадиий академияси",
+      "uz": "O'zbekiston Badiiy akademiyasi",
       "en": "Academy of Arts of Uzbekistan",
       "ru": "Академия художеств Узбекистана"
     },
@@ -1473,14 +1439,14 @@
     },
     "phone": "(90) 347-34-41",
     "type": {
-      "uz": "Boshqa tashkilotlar",
       "en": "Other organizations",
+      "uz": "Boshqa tashkilotlar",
       "ru": "Другие организации"
     }
   },
   {
     "organization": {
-      "uz": "“Эл-юрт умиди” жамғармаси",
+      "uz": "“El-yurt umidi” jamg'armasi",
       "en": "'El-Yurt Umidi' Foundation",
       "ru": "Фонд «Эл-юрт умиди»"
     },
@@ -1497,7 +1463,7 @@
   },
   {
     "organization": {
-      "uz": "НКМК жамғармаси",
+      "uz": "NKMK jamg'armasi",
       "en": "NKMK Foundation",
       "ru": "Фонд НКМК"
     },
@@ -1514,7 +1480,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон мусулмонлари идораси",
+      "uz": "O'zbekiston Musulmonlar irodasi",
       "en": "Spiritual Administration of Muslims of Uzbekistan",
       "ru": "Духовное управление мусульман Узбекистана"
     },
@@ -1531,7 +1497,7 @@
   },
   {
     "organization": {
-      "uz": "Давлат кадастрлар палатаси",
+      "uz": "Davlat kadastrlar palatasi",
       "en": "State Cadastral Chamber",
       "ru": "Государственная кадастровая палата"
     },
@@ -1548,7 +1514,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон тарихи давлат музейи",
+      "uz": "O'zbekiston tarixi davlat muzeyi",
       "en": "State Museum of History of Uzbekistan",
       "ru": "Государственный музей истории Узбекистана"
     },
@@ -1565,7 +1531,7 @@
   },
   {
     "organization": {
-      "uz": "Навоийуран давлат корхонаси",
+      "uz": "Navoiyuran davlat korxonasi",
       "en": "Navoiuran State Enterprise",
       "ru": "Государственное предприятие Навоийуран"
     },
@@ -1582,7 +1548,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекконцерт ДМ",
+      "uz": "O'zbekkonsert DM",
       "en": "Uzbekconcert DM",
       "ru": "Узбекконцерт ДМ"
     },
@@ -1599,7 +1565,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзкимёсаноат АЖ",
+      "uz": "O'zkimyosanoat AJ",
       "en": "UzkhimyoSanat JSC",
       "ru": "Узкимёсаноат АО"
     },
@@ -1616,7 +1582,7 @@
   },
   {
     "organization": {
-      "uz": "Ҳудудий электр тармоқлари АЖ",
+      "uz": "Hududiy elektr tarmoqlari AJ",
       "en": "Regional Electric Networks JSC",
       "ru": "Региональные электрические сети АО"
     },
@@ -1633,7 +1599,7 @@
   },
   {
     "organization": {
-      "uz": "Ҳудудгазтаъминот АЖ",
+      "uz": "Hududgazta'minot AJ",
       "en": "Regional Gas Supply JSC",
       "ru": "Региональное газоснабжение АО"
     },
@@ -1650,7 +1616,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекнефтегаз АЖ",
+      "uz": "O'zbekneftgaz AJ",
       "en": "Uzbekneftegaz JSC",
       "ru": "Узбекнефтегаз АО"
     },
@@ -1658,7 +1624,7 @@
       "original": "Ибодов Мўмин Мамуржанович",
       "latin": "Ibodov Mumin Mamurjanovich"
     },
-    "phone": "(95) 160-77-07",
+    "phone": "(95) 160-77-07, (90) 959-03-05",
     "type": {
       "uz": "Aksiyadorlik jamiyatlari",
       "en": "Joint-stock companies",
@@ -1667,24 +1633,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекнефтегаз АЖ",
-      "en": "Uzbekneftegaz JSC",
-      "ru": "Узбекнефтегаз АО"
-    },
-    "name": {
-      "original": "Ибодов Мўмин Мамуржанович",
-      "latin": "Ibodov Mumin Mamurjanovich"
-    },
-    "phone": "(90) 959-03-05",
-    "type": {
-      "uz": "Aksiyadorlik jamiyatlari",
-      "en": "Joint-stock companies",
-      "ru": "Акционерные общества"
-    }
-  },
-  {
-    "organization": {
-      "uz": "Ўзбектелеком АК",
+      "uz": "O'zbektelekom AK",
       "en": "Uzbektelecom JSC",
       "ru": "Узбектелеком АО"
     },
@@ -1701,9 +1650,9 @@
   },
   {
     "organization": {
-      "uz": "Ўзмелиомашлизинг ДУК",
-      "en": "UzmelioMashLizing DUK",
-      "ru": "Узмелиомашлизинг ДУК"
+      "uz": "O‘zmeliomashlizning DUK",
+      "en": "UzmelioMashLizing SUE",
+      "ru": "ГУП «Узмелиомашлизинг»"
     },
     "name": {
       "original": "Ачилов Файёз Шерқулович",
@@ -1718,9 +1667,9 @@
   },
   {
     "organization": {
-      "uz": "O‘zenergosotish АЖ",
+      "uz": "O‘zenergosotish AJ",
       "en": "O‘zenergosotish JSC",
-      "ru": "O‘zenergosotish АО"
+      "ru": "АО Ўзенергосотиш"
     },
     "name": {
       "original": "Маматов Рустам Урокбоевич",
@@ -1735,7 +1684,7 @@
   },
   {
     "organization": {
-      "uz": "Uzbekistan Аirports АЖ",
+      "uz": "Uzbekistan Аirports AJ",
       "en": "Uzbekistan Airports JSC",
       "ru": "Узбекстан аэропорты АО"
     },
@@ -1752,7 +1701,7 @@
   },
   {
     "organization": {
-      "uz": "Uzbekistan Airways АЖ",
+      "uz": "O‘zbekiston Airways AJ",
       "en": "Uzbekistan Airways JSC",
       "ru": "Узбекские авиалинии АО"
     },
@@ -1769,7 +1718,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзтрансгаз АЖ",
+      "uz": "O'ztransgaz AJ",
       "en": "Uztransgaz JSC",
       "ru": "Узтрансгаз АО"
     },
@@ -1786,13 +1735,13 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон республика товар-хом ашё биржаси АЖ",
+      "uz": "O'zbekiston Respublikasi tovar-xom ashyo birjasi AJ",
       "en": "Uzbekistan Republic Commodity and Raw Materials Exchange JSC",
       "ru": "Торговая и сырьевая биржа Республики Узбекистан АО"
     },
     "name": {
       "original": "Тиллабоев Ҳикматулло Рустамович",
-      "latin": "Tillaev Hikmatullo Rustamovich"
+      "latin": "Tillaboev Hikmatullo Rustamovich"
     },
     "phone": "(90) 931-65-88",
     "type": {
@@ -1803,7 +1752,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекгидроэнерго АЖ",
+      "uz": "O'zbekgidroenergo AJ",
       "en": "Uzbekhydroenergo JSC",
       "ru": "Узбекгидроэнерго АО"
     },
@@ -1820,7 +1769,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекинвест Экспорт-импорт суғурта компанияси АЖ",
+      "uz": "O'zbekinvest Eksport-import sug'urta kompaniyasi AJ",
       "en": "Uzbekinvest Export-Import Insurance Company JSC",
       "ru": "Узбекинвест Экспорт-импорт страховая компания АО"
     },
@@ -1837,7 +1786,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон миллий электр тармоқлари АЖ",
+      "uz": "O'zbekiston milliy elektr tarmoqlari",
       "en": "Uzbekistan National Electric Networks JSC",
       "ru": "Национальные электрические сети Узбекистана"
     },
@@ -1854,7 +1803,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон темир йуллари АЖ",
+      "uz": "O'zbekiston temir yo'llari AJ",
       "en": "Uzbekistan Railways JSC",
       "ru": "Узбекские железные дороги"
     },
@@ -1871,7 +1820,7 @@
   },
   {
     "organization": {
-      "uz": "Иссиқлик электр станциялари АЖ",
+      "uz": "Issiqlik elektr stansiyalari AJ",
       "en": "Heat Electric Power Stations JSC",
       "ru": "Тепловые электростанции"
     },
@@ -1888,7 +1837,7 @@
   },
   {
     "organization": {
-      "uz": "Дори-Дармон АК",
+      "uz": "Dori-darmon AK",
       "en": "Dori-Darmon JSC",
       "ru": "Дори-Дармон"
     },
@@ -1905,9 +1854,9 @@
   },
   {
     "organization": {
-      "uz": "Ўзбеккўмир АЖ",
+      "uz": "O'zbekko'mir AJ",
       "en": "Uzbekkumir JSC",
-      "ru": "Узбекуголь"
+      "ru": "АО Узбекуголь"
     },
     "name": {
       "original": "Душаев Неъмат Абдивабович",
@@ -1922,9 +1871,9 @@
   },
   {
     "organization": {
-      "uz": "Ўзагролизинг АЖ",
+      "uz": "O'zagrolizning AJ",
       "en": "Uzagrolizing JSC",
-      "ru": "Узагролизинг"
+      "ru": "АО Узагролизинг"
     },
     "name": {
       "original": "Мирзаева Сарвиноз Зафар қизи",
@@ -1939,7 +1888,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзсувтаъминот АЖ",
+      "uz": "O'zsuvta'minot AJ",
       "en": "Uzsuvta'minot JSC",
       "ru": "Узсувтаъминот"
     },
@@ -1956,12 +1905,12 @@
   },
   {
     "organization": {
-      "uz": "Навоий КМК АЖ",
+      "uz": "Navoiy KMK AJ",
       "en": "Navoi Mining & Metallurgy Combinat JSC",
       "ru": "Навоийский ГМК"
     },
     "name": {
-      "original": "Рaupov Холмамат Рашидович",
+      "original": "РАУПОВ Холмамат Рашидович",
       "latin": "Raupov Holmamat Rashidovich"
     },
     "phone": "(93) 521-84-48",
@@ -1973,7 +1922,7 @@
   },
   {
     "organization": {
-      "uz": "Олмалиқ КМК АЖ",
+      "uz": "Olmaliq KMK AJ",
       "en": "Olmaliq Mining and Metallurgy Plant JSC",
       "ru": "Олмалиқский ГМК"
     },
@@ -1990,7 +1939,7 @@
   },
   {
     "organization": {
-      "uz": "Тадбиркорликни ривожлантириш компанияси АЖ",
+      "uz": "Tadbirkorlikni rivojlantrish kompaniyasi AJ",
       "en": "Entrepreneurship Development Company JSC",
       "ru": "Компания по развитию предпринимательства"
     },
@@ -2007,7 +1956,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзметкомбинат АЖ",
+      "uz": "O'zmetkombinat",
       "en": "Uzmetkombinat JSC",
       "ru": "Узметкомбинат"
     },
@@ -2024,7 +1973,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбек геология қидирув АЖ",
+      "uz": "O'zbek geologiya qidiruv AJ",
       "en": "Uzbek Geological Survey JSC",
       "ru": "Узбекская геологоразведка"
     },
@@ -2041,7 +1990,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон маҳаллалари уюшмаси",
+      "uz": "O'zbekiston mahallalari uyushmasi",
       "en": "Uzbekistan Mahalla Association",
       "ru": "Ассоциация махалл Узбекистана"
     },
@@ -2058,7 +2007,7 @@
   },
   {
     "organization": {
-      "uz": "Яйлов хўжалигини ривожлантириш уюшмаси",
+      "uz": "Yaylov xo'jaligini rivojantrish uyushmasi",
       "en": "Yaylov Agricultural Development Association",
       "ru": "Ассоциация по развитию сельского хозяйства Яйлов"
     },
@@ -2075,7 +2024,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекипаксаноат уюшмаси",
+      "uz": "O'zbekipaksanoat uyushmasi",
       "en": "Uzbekistan Cotton Industry Association",
       "ru": "Ассоциация узбекского хлопка"
     },
@@ -2092,7 +2041,7 @@
   },
   {
     "organization": {
-      "uz": "Ҳунарманд уюшмаси",
+      "uz": "Hunarmand uyushmasi",
       "en": "Association of Craftsmen",
       "ru": "Ассоциация ремесленников"
     },
@@ -2109,7 +2058,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзсаноатқурилишматериаллари уюшмаси",
+      "uz": "O'zsanoat qurilish materiallari uyushmasi",
       "en": "Uzbek Construction Materials Association",
       "ru": "Ассоциация строительных материалов Узбекистана"
     },
@@ -2126,7 +2075,7 @@
   },
   {
     "organization": {
-      "uz": "Ёнғоқ ишлаб чиқарувчилар ва экспорт қилувчилар уюшмаси",
+      "uz": "Yong'oq ishlab chiqaruvchi va eksport qiluvchilar uyushmasi",
       "en": "Association of Nut Producers and Exporters",
       "ru": "Ассоциация производителей и экспортеров орехов"
     },
@@ -2143,7 +2092,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекбалиқсаноат уюшмаси",
+      "uz": "O'zbek baliq sanoat uyushmasi",
       "en": "Uzbek Fisheries Industry Association",
       "ru": "Ассоциация рыбной промышленности Узбекистана"
     },
@@ -2160,7 +2109,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзэлтехсаноат уюшмаси",
+      "uz": "O'zeltexsanoat uyishmasi",
       "en": "Uzbek Electrical Technology Association",
       "ru": "Ассоциация электротехнологий Узбекистана"
     },
@@ -2177,7 +2126,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон Ёзувчилар уюшмаси",
+      "uz": "O'zbekiston yozuvchilar uyushmasi",
       "en": "Writers' Association of Uzbekistan",
       "ru": "Ассоциация писателей Узбекистана"
     },
@@ -2194,7 +2143,7 @@
   },
   {
     "organization": {
-      "uz": "Паррандасаноат уюшмаси",
+      "uz": "Parranda sanoat uyushmasi",
       "en": "Poultry Industry Association",
       "ru": "Ассоциация птицеводческой промышленности"
     },
@@ -2211,7 +2160,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзбекистон банклари Ассоциацияси",
+      "uz": "O‘zbekiston banklari assotsiatsiyasi",
       "en": "Association of Banks of Uzbekistan",
       "ru": "Ассоциация банков Узбекистана"
     },
@@ -2228,7 +2177,7 @@
   },
   {
     "organization": {
-      "uz": "АТБ Халқ банки",
+      "uz": "ATB Xalq banki",
       "en": "People's Bank of Uzbekistan",
       "ru": "Народный банк Узбекистана"
     },
@@ -2245,7 +2194,7 @@
   },
   {
     "organization": {
-      "uz": "АТБ Микрокредитбанк",
+      "uz": "ATB mikrokredit bank",
       "en": "Microcredit Bank",
       "ru": "Микрокредитбанк"
     },
@@ -2262,7 +2211,7 @@
   },
   {
     "organization": {
-      "uz": "АТБ Ўзсаноатқурилишбанк",
+      "uz": "ATB O'zsanoatqurulishbank",
       "en": "Uzbek Industrial Construction Bank",
       "ru": "Узпромстройбанк"
     },
@@ -2279,7 +2228,7 @@
   },
   {
     "organization": {
-      "uz": "Ўзмиллийбанк АЖ",
+      "uz": "O'zmilliybank AJ",
       "en": "National Bank of Uzbekistan",
       "ru": "Национальный банк Узбекистана"
     },
@@ -2296,7 +2245,7 @@
   },
   {
     "organization": {
-      "uz": "АТБ Бизнесни ривожлантириш банки",
+      "uz": "ATB Biznesni rivojlantirish banki",
       "en": "Bank for Business Development",
       "ru": "Банк развития бизнеса"
     },
@@ -2313,7 +2262,7 @@
   },
   {
     "organization": {
-      "uz": "АТБ Алоқабанк",
+      "uz": "ATB Aloqabank",
       "en": "Aloqabank",
       "ru": "Алоқабанк"
     },
@@ -2330,7 +2279,7 @@
   },
   {
     "organization": {
-      "uz": "АТБ Агробанк",
+      "uz": "ATB Agrobank",
       "en": "Agrobank",
       "ru": "Агробанк"
     },
@@ -2347,7 +2296,7 @@
   },
   {
     "organization": {
-      "uz": "Қорақалпоғистон Республикаси Жўқорғи Кенгеси",
+      "uz": "Qoraqalpog'iston Respublikasi Jo‘qorg‘i Kengesi",
       "en": "Supreme Council of the Republic of Karakalpakstan",
       "ru": "Высший совет Республики Каракалпакстан"
     },
@@ -2364,7 +2313,7 @@
   },
   {
     "organization": {
-      "uz": "Қорақалпоғистон Республикаси Вазирлар Кенгаши",
+      "uz": "Qoraqalpog'iston Respublikasi Vazirlar Kengashi",
       "en": "Council of Ministers of the Republic of Karakalpakstan",
       "ru": "Совет министров Республики Каракалпакстан"
     },
@@ -2381,7 +2330,7 @@
   },
   {
     "organization": {
-      "uz": "Бухоро вилояти ҳокимлиги",
+      "uz": "Buxoro viloyati hokimligi",
       "en": "Bukhara Regional Administration",
       "ru": "Администрация Бухарской области"
     },
@@ -2398,7 +2347,7 @@
   },
   {
     "organization": {
-      "uz": "Жиззах вилояти ҳокимлиги",
+      "uz": "Jizzax viloyati hokimligi",
       "en": "Jizzakh Regional Administration",
       "ru": "Администрация Джизакской области"
     },
@@ -2415,7 +2364,7 @@
   },
   {
     "organization": {
-      "uz": "Қашқадарё вилояти ҳокимлиги",
+      "uz": "Qashqadaryo viloyati hokimligi",
       "en": "Kashkadarya Regional Administration",
       "ru": "Администрация Кашкадарьинской области"
     },
@@ -2432,13 +2381,13 @@
   },
   {
     "organization": {
-      "uz": "Навоий вилояти ҳокимлиги",
+      "uz": "Navoiy viloyati hokimligi",
       "en": "Navoi Regional Administration",
       "ru": "Администрация Навоийской области"
     },
     "name": {
-      "original": "Раулаева Шоҳира Хамраевна",
-      "latin": "Raulayeva Shohira Khamraevna"
+      "original": "Раубаева Шоҳира Хамраевна",
+      "latin": "Raubayeva Shohira Khamraevna"
     },
     "phone": "(90) 971-41-15",
     "type": {
@@ -2449,7 +2398,7 @@
   },
   {
     "organization": {
-      "uz": "Наманган вилояти ҳокимлиги",
+      "uz": "Namangan viloyati hokimligi",
       "en": "Namangan Regional Administration",
       "ru": "Администрация Наманганской области"
     },
@@ -2466,7 +2415,7 @@
   },
   {
     "organization": {
-      "uz": "Самарқанд вилояти ҳокимлиги",
+      "uz": "Samarqand viloyati hokimligi",
       "en": "Samarkand Regional Administration",
       "ru": "Администрация Самаркандской области"
     },
@@ -2483,7 +2432,7 @@
   },
   {
     "organization": {
-      "uz": "Сирдарё вилояти ҳокимлиги",
+      "uz": "Sirdaryo viloyati hokimligi",
       "en": "Syrdarya Regional Administration",
       "ru": "Администрация Сырдарьинской области"
     },
@@ -2500,7 +2449,7 @@
   },
   {
     "organization": {
-      "uz": "Сурхондарё вилояти ҳокимлиги",
+      "uz": "Surxondaryo viloyati hokimligi",
       "en": "Surkhandarya Regional Administration",
       "ru": "Администрация Сурхандарьинской области"
     },
@@ -2517,7 +2466,7 @@
   },
   {
     "organization": {
-      "uz": "Тошкент вилояти ҳокимлиги",
+      "uz": "Toshkent viloyati hokimligi",
       "en": "Tashkent Regional Administration",
       "ru": "Администрация Ташкентской области"
     },
@@ -2534,7 +2483,7 @@
   },
   {
     "organization": {
-      "uz": "Фарғона вилояти ҳокимлиги",
+      "uz": "Farg'ona viloyati hokimligi",
       "en": "Fergana Regional Administration",
       "ru": "Администрация Ферганской области"
     },
@@ -2551,7 +2500,7 @@
   },
   {
     "organization": {
-      "uz": "Хоразм вилояти ҳокимлиги",
+      "uz": "Xorazm viloyati hokimligi",
       "en": "Khorezm Regional Administration",
       "ru": "Администрация Хорезмской области"
     },
@@ -2568,7 +2517,7 @@
   },
   {
     "organization": {
-      "uz": "Тошкент шаҳар ҳокимлиги",
+      "uz": "Toshkent shahar hokimligi",
       "en": "Tashkent City Administration",
       "ru": "Администрация города Ташкента"
     },

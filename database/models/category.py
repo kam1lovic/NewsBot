@@ -8,8 +8,8 @@ from database.models import User
 
 class Category(CreatedModel):
     name: Mapped[str] = mapped_column(String, unique=True)
-    name_uz: Mapped[str] = mapped_column(String, unique=True)
-    name_ru: Mapped[str] = mapped_column(String, unique=True)
+    name_uz: Mapped[str] = mapped_column(String, unique=True, nullable=True)
+    name_ru: Mapped[str] = mapped_column(String, unique=True, nullable=True)
     emoji: Mapped[str] = mapped_column(String)
 
     users: Mapped[list['User']] = relationship('User', secondary='user_categories', back_populates='categories')
